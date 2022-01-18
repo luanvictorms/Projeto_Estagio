@@ -212,8 +212,8 @@ let resultadoTotal = document.getElementById("btn");
 
         document.getElementById('Mensalidade').innerHTML =  `R$${top.somaPlanos}`;
 
-        document.getElementById('text4').innerHTML = `Eai Gostou!?`;
+        document.getElementById('text4').innerHTML = `E ai Gostou!?`;
         document.getElementById('text2').innerHTML = `Após suas escolhas o nosso algoritmo identificou que seu Investimento inicial seria de R$${orçamentoTotal},00 é o valor mensal que você pagaria pelos serviços seria dê: R$${top.somaPlanos},00 !`;
-        document.getElementById('text5').innerHTML = `Pronto para muito divertimento ??`;
+        
 
     })
